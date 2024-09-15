@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Backgrounds & Shadows</title>
-  </head>
-  <body>
-    <!-- Background Classes -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            http-equiv="X-UA-Compatible"
+            content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Backgrounds & Shadows</title>
+    </head>
+    <body>
+        <!-- Background Classes -->
+        <div
+            class="h-64 w-72 bg-no-repeat bg-cover bg-center"
+            style="background-image: url('../assets/img/img1.jpg')"></div>
 
-    <!-- Gradients -->
+        <!-- Gradients -->
+        <div class="h-24 bg-gradient-to-l from-cyan-500 to-blue-500"></div>
 
-    <!-- Shadows -->
+        <!-- Shadows -->
+        <div class="w-96 mt-6 ml-4 p-3 shadow-2xl shadow-blue-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum optio ex veritatis cupiditate totam magnam vero quia consequatur! Eaque sed quis quasi facilis ipsa. Maiores voluptas obcaecati voluptates aperiam natus?</div>
 
-    <!-- Mix Blend -->
-  </body>
+        <!-- Mix Blend -->
+        <div class="flex justify-center -space-x-24">
+            <div class="mix-blend-multiply bg-blue-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime sit expedita aliquam aperiam ipsa, totam facilis ipsum sunt voluptas, quia alias! Culpa eos pariatur maxime sint animi, aut accusantium harum.</div>
+            <div class="mix-blend-multiply bg-pink-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime sit expedita aliquam aperiam ipsa, totam facilis ipsum sunt voluptas, quia alias! Culpa eos pariatur maxime sint animi, aut accusantium harum.</div>
+        </div>
+    </body>
 </html>
 
 <!-- Background Size
@@ -51,7 +64,7 @@
   bg-scroll	  background-attachment: scroll;
 -->
 
-<!-- 
+<!--
   Shadows
   shadow-sm	    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   shadow	      box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
