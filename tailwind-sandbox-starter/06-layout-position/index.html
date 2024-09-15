@@ -1,37 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>TailwindCSS</title>
-  </head>
-  <body>
-    <!-- Positioning -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            http-equiv="X-UA-Compatible"
+            content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>TailwindCSS</title>
+    </head>
+    <body>
+        <!-- Positioning -->
+        <div class="relative h-12 bg-red-200 w-1/2">
+            <p>Parent Element</p>
+            <div class="absolute bottom-0 right-0 bg-red-500">child element</div>
+        </div>
 
-    <!-- Top left corner -->
+        <!-- Top left corner -->
+        <div class="relative h-32 w-32 bg-yellow-100">
+            <div class="absolute left-0 top-0 h-16 w-16 bg-yellow-300">
+                <p>Top Left Corner</p>
+            </div>
+        </div>
 
-    <!-- Top right corner -->
+        <!-- Top right corner -->
+        <div class="relative h-32 w-32 bg-blue-100">
+            <div class="absolute right-0 top-0 h-16 w-16 bg-yellow-300">
+                <p>Top Right Corner</p>
+            </div>
+        </div>
 
-    <!-- Bottom left corner -->
+        <!-- Bottom left corner -->
+        <div class="relative h-32 w-32 bg-yellow-100">
+            <div class="absolute left-0 bottom-0 h-16 w-16 bg-yellow-300">
+                <p>Bottom Left Corner</p>
+            </div>
+        </div>
 
-    <!-- Bottom right corner -->
+        <!-- Bottom right corner -->
+        <div class="relative h-32 w-32 bg-blue-100">
+            <div class="absolute right-0 bottom-0 h-16 w-16 bg-yellow-300">
+                <p>Bottom Right Corner</p>
+            </div>
+        </div>
 
-    <!-- Span top edge -->
+        <!-- Span top edge -->
 
-    <!-- Span left edge -->
+        <!-- Span left edge -->
 
-    <!-- Span right edge -->
+        <!-- Span right edge -->
 
-    <!-- Span bottom edge -->
+        <!-- Span bottom edge -->
 
-    <!-- Display Classes -->
+        <!-- Display Classes -->
 
-    <!-- Z-Index -->
+        <!-- Z-Index -->
 
-    <!-- Floats -->
-  </body>
+        <!-- Floats -->
+    </body>
 </html>
 
 <!-- Position Classes
