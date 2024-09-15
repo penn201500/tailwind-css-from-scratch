@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Sizing</title>
   </head>
-  <body>
+  <>
     <!-- Width -->
      <div class="bg-blue-500 w-12">hello</div>
 
@@ -34,12 +34,21 @@
      <div class="bg-blue-500 max-w-sm">hello</div>
 
     <!-- Height (Most of the same options as widths) -->
+     <div class="flex items-end">
+      <div class="bg-green-500 w-24 h-9">hello world</div>
+      <div class="bg-gray-500 w-24 h-189">hello world</div>
+     </div>
 
     <!-- Min Height -->
+    <div class="bg-gray-500 w-24 min-h-20">Minimum height</div>
+
 
     <!-- Max Height -->
+    <div class="bg-blue-500 w-24 max-h-20 text-white">Minimum heightMinimum heightMinimum heightMinimum height</div>
+
 
     <!-- Full screen height -->
+      <div class="bg-yellow-500 w-20 h-screen">hello</div>
   </body>
 </html>
 
